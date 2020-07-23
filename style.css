@@ -1,0 +1,18 @@
+
+    .hidden {
+        display: none;
+    }
+
+    .outline {
+        border: 2px solid black;
+        width: 32em;
+        z-index: 1;
+        padding:5px 10px 5px 10px
+    }
+    td,tr{
+        padding:0px 10px 0px 10px;
+    }
+    table{
+        margin-left: 20px;
+        text-align: center;
+    }
