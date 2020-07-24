@@ -1,6 +1,6 @@
- //I have only commented some solutions 
- //otherwise these questions are working properly
-
+//i have commented question 9 of 14-16
+//it was working properly but because of this question other question was being
+//effected
 
 //chapter 1
 
@@ -836,8 +836,8 @@ else if(t >= 2100 && t < 2359)
     alert("Good night");
 }
 
-// //chapter 14-16
-// //1
+//chapter 14-16
+//1
  var arr22 = []
  arr22 = new Array();
 
@@ -861,9 +861,9 @@ else if(t >= 2100 && t < 2359)
  var a105=["SSC","HSC","BCS","BS","BCOM","MS","M.Phil.","PhD"];
 
  console.log("Qualification :")
- for (let i = 0; i < a105.length; i++) {
+ for (var i = 0; i < a105.length; i++) {
      
- console.log(i+1,')' ,a105[i]);
+ console.log(i+1 ,a105[i]);
      
  }
 
@@ -876,34 +876,36 @@ else if(t >= 2100 && t < 2359)
  }
  
  //9
- var color=["red","blue","green","yellow"]
- var x = prompt("Enter a colour in beginning: ")
- document.write("Before"+"<br>");
- for(var i =0; i<=color.length-1;i++)
- {
-     document.write(color[i]+"<br>");
- } 
- color.unshift(x);
- document.write("after"+"<br>");
- for(var i =0; i<=color.length-1;i++)
- {
-     document.write(color[i]+"<br>");
- } 
+
+
+//  var col222=["red","blue","green","yellow"];
+//  var x = prompt("Enter a colour in beginning: ");
+//  document.write("Before"+"<br>");
+//  for(var i =0; i<=col222.length-1; i++)
+//  {
+//      document.write(col222[i]+"<br>");
+//  } 
+//  col222.unshift(x);
+//  document.write("after"+"<br>");
+//  for(var i =0; i<=col222.length-1;i++)
+//  {
+//      document.write(col222[i]+"<br>");
+//  } 
 
 
 
-10
-var score2=[230,435,453,234,231];
-score2.sort();
-console.log(score2);
+// 10
+var sc3=[230,435,453,234,231];
+sc3.sort();
+console.log(sc3);
 
-11
+//11
 var wordList =["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
 var wordList2=wordList.slice(2,4);
 console.log(wordList);
 console.log(wordList2);
 
-12
+// 12
 var arr12=["This","is","my","cat"];
 var arr13=arr12.join(" ");
 console.log(arr13);
@@ -920,7 +922,7 @@ console.log(arr14[1]);
 console.log(arr14[2]);
 console.log(arr14[3]);
 
-14
+// 14
 var arr15=[];
 arr15.push("Keyboard");
 arr15.push("Mouse");
@@ -939,7 +941,7 @@ document.write("<br>" + "<br>" + "<br>" + "-------------------------------------
 
 
 
-15
+// 15
 var arr16=["Apple","Samsung","Motorola","Nokia","Sony","Haier"]
 document.write(arr16[0]);
 document.write("<br>");
@@ -1044,26 +1046,26 @@ if (flag==0) {
 }
 
 //8
-var A = [24, 53, 78, 91, 12];
+var A2 = [24, 53, 78, 91, 12];
 var alpha=0;
-for (var i = 0; i < A.length; i++) {
-    if (A[i]>alpha) {
-        alpha=A[i]
+for (var i = 0; i < A2.length; i++) {
+    if (A2[i]>alpha) {
+        alpha=A2[i]
     }
     
 }
 console.log("The Largest Number is ",alpha);
 
 //9
-var A = [24, 53, 78, 91, 12];
-var alpha=1000;
-for (var i = 0; i < A.length; i++) {
-    if (A[i]<alpha) {
-        alpha=A[i]
+var A3 = [24, 53, 78, 91, 12];
+var alpha2=1000;
+for (var i = 0; i < A3.length; i++) {
+    if (A3[i]<alpha2) {
+        alpha2=A3[i]
     }
     
 }
-console.log("The Smallest Number is ",alpha);
+console.log("The Smallest Number is ",alpha2);
 
 //10
 var R2="";
@@ -1075,8 +1077,8 @@ for (var i = 1; i <= 100; i++) {
 }
 console.log(R2);
 
-// //chapter 21 - 25
-// //1
+//chapter 21 - 25
+//1
 var f = prompt("Enter first name: ");
 var l = prompt("Enter last name: ");
 
@@ -1627,8 +1629,8 @@ document.write(laterDate);
 
 
 
-// document.write("<br>" + "<br>" + "<br>" + "--------------------------------------------------------------------");
-// document.write("<br>" + "<br>" + "<br>");
+document.write("<br>" + "<br>" + "<br>" + "--------------------------------------------------------------------");
+document.write("<br>" + "<br>" + "<br>");
 
 
 //9
@@ -2011,46 +2013,46 @@ document.write("<br>" + "<br>" + "<br>" + "-------------------------------------
 
 //chapter 39-42
 //1
-function power(a,b) {
+function power(a25,b25) {
 
-    if (b==0) {
-        a=1;
+    if (b25==0) {
+        a25=1;
     } else {
-        var tem=a;
-        b--;
-        while (b>=1) {
-            a*=tem;
-            b--;
+        var tem=a25;
+        b25--;
+        while (b25>=1) {
+            a25*=tem;
+            b25--;
         }
     }
-    alert(a);
+    alert(a25);
 }
 
 //2
-function LeapYear(year) {
-    alert((year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0));    
+function LeapYear(year2) {
+    alert((year2 % 100 === 0) ? (year2 % 400 === 0) : (year2 % 4 === 0));    
 } 
 
 //3
-function calcarea(s,a,b,c) {
-    var Area=s*(s-a)*(s-b)*(s-c);
+function calcarea(s26,a26,b26,c26) {
+    var Area=s26*(s26-a26)*(s26-b26)*(s26-c26);
     alert("Area: "+Area)
 }
-function calcS(a,b,c) {
-    var S=(a+b+c)/2;
-    calcarea(S,a,b,c);
+function calcS(age27,b27,c27) {
+    var S=(a27+b27+c27)/2;
+    calcarea(S,a27,b27,c27);
 }
 
 //4
-function mainFunction(a,b,c) {
-    alert("Average: "+average(a,b,c));
-    alert("Percentage: "+percentage(a,b,c)+"% out of 300");
+function mainFunction(a28,b28,c28) {
+    alert("Average: "+average(a28,b28,c28));
+    alert("Percentage: "+percentage(a28,b28,c28)+"% out of 300");
 }
-function percentage(a,b,c) {
-    return (a+b+c)/300*100;
+function percentage(a29,b29,c29) {
+    return (a29+b29+c29)/300*100;
 }
-function average(a,b,c) {
-    return (a+b+c)/3;
+function average(a29,b29,c29) {
+    return (a29+b29+c29)/3;
 }
 
 //5
@@ -2059,14 +2061,14 @@ function indexOf(str3,_char) {
     var flag=false;
     while (q<=str3.length) {
         if (_char==str3[q]) {
-            alert("Found at "+q)
+            alert("Found at "+ q)
             flag=true;
             break;
         }
         q++;
     }
     if (flag!=true) {
-        alert("character not found")
+        alert("character not found");
     }
 }
 
@@ -2082,7 +2084,7 @@ function vowel(strings) {
 function find(str2) {
     var find = 0, count = 0;
     str2 = str2.toLowerCase();
-    console.log("Vowels in successions are: \n",)
+    console.log("Vowels in successions are: ")
     for (var i = 0; i<str2.length; i++) {
         if (isvowel(str2[i])) {
             find++;
@@ -2090,20 +2092,29 @@ function find(str2) {
             find = 0;
         }
         if (find == 2) {
-            console.log(str2[i - 1], str2[i], '\n');
+            console.log(str2[i - 1], str2[i]);
             find = 1;
         }
 
     }
-}
-function isvowel(char) {
-    switch (char) {
+ }
+function isvowel(char2) {
+    switch (char2) {
         case 'a':
+            return 1;
+            break;
         case 'e':
+            return 1;
+            break;
         case 'i':
+            return 1;
+            break;
         case 'o':
+            return 1;
+            break;
         case 'u':
             return 1;
+            break;
 
         default:
             return 0;
@@ -2153,8 +2164,8 @@ function withdraw() {
     alert(`you will have ${hundreds} hundred notes ${fifty} fifty notes ${tens} ten notes`)
 }
 
-// //chapters 43-48
-// //1
+//chapters 43-48
+//1
 var cl = 0;
 function inc() {
     cl += 1;

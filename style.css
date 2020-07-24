@@ -1,5 +1,9 @@
 
-    .hidden {
+    .hidden_outline{
+        display: none;
+    }
+
+    .hidden{
         display: none;
     }
 
@@ -9,7 +13,8 @@
         z-index: 1;
         padding:5px 10px 5px 10px
     }
-    td,tr{
+
+    td, tr{
         padding:0px 10px 0px 10px;
     }
     table{

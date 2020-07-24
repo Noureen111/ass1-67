@@ -157,13 +157,7 @@ q2 html part -->
 <p id="seemore">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eaque maiores nisi fuga. 
     Perferendis pariatur magni modi <a href="javascript:void()" onclick="See()">Read more</a>
-    <!-- tempore repellat praesentium, id odit blanditiis adipisci dolores? Ipsam deserunt sed cupiditate quis?
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eaque maiores nisi fuga. 
-    Perferendis pariatur magni modi 
-    tempore repellat praesentium, id odit blanditiis adipisci dolores? Ipsam deserunt sed cupiditate quis?
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error eaque maiores nisi fuga. 
-    Perferendis pariatur magni modi 
-    tempore repellat praesentium, id odit blanditiis adipisci dolores? Ipsam deserunt sed cupiditate quis? -->
+    
 </p>
 
 
@@ -255,6 +249,8 @@ q2 html part -->
 
 <!-- chapters 43-48
 3 -->
+
+<!-- commenting it but it is working properly -->
 
 
 
@@ -387,8 +383,8 @@ q2 html part -->
     <br>
     <br>
     <br>
-    <button type="button" onClick="inc()">Increase</button>
-    <button type="button" onClick="dec()">Decrease</button>
+    <button type="button" onClick="inc(this)">Increase</button>
+    <button type="button" onClick="dec(this)">Decrease</button>
     <p>Clicks: <a id="clicks">0</a></p>
 </center>
 
@@ -403,9 +399,8 @@ q2 html part -->
 <!-- chapters 49-52
 3 -->
 
-
-
-<form class="hidden outline" action="" id="form">
+ 
+<form class="hidden_outline" style="display: hidden;" action="" id="form">
     Name :<input type="text" name="" id="name">
     <br><br>
     Class :<input type="text" name="" id="class">
@@ -534,15 +529,14 @@ q2 html part -->
 </table>
 
 <script>
-    var editvar, disable1, disable2,Name,Class;
+    var editvar, disable1, disable2, Name, Class;
     function deleteRow(r) {
         var i = r.parentNode.parentNode.rowIndex;
         document.getElementById("myTable").deleteRow(i);
-        // var nig=r.parentNode.parentNode.childNodes[1].innerHTML="niga";
         console.log(r.parentNode.parentNode.childNodes)
     }
     function editRow(r) {
-        // editvar=r.parentNode.parentNode.childNodes[1];
+        
         editvar = r.parentNode.parentNode;
         console.log(editvar);
         document.getElementById("form").className = "outline";
@@ -551,11 +545,10 @@ q2 html part -->
         for (let index = 0; index < 10; index++) {
             document.getElementsByClassName(index)[1].childNodes[1].disabled = true;
             document.getElementsByClassName(index)[0].childNodes[1].disabled = true;
-        } -->
-<!-- 
+        }
     }
     function Update() {
-        // alert(editvar);
+        
         console.log(editvar)
         document.getElementById("form").className += " hidden";
         Name=document.getElementById("name");
@@ -564,12 +557,19 @@ q2 html part -->
         editvar.childNodes[5].innerHTML = Class.value;
         Name.value="";
         Class.value="";
-        for (let index = 0; index < 10; index++) {
-            document.getElementsByClassName(index)[1].childNodes[1].disabled = false;
-            document.getElementsByClassName(index)[0].childNodes[1].disabled = false;
+        for (var i = 0; i < 10; i++) {
+            document.getElementsByClassName(i)[1].childNodes[1].disabled = false;
+            document.getElementsByClassName(i)[0].childNodes[1].disabled = false;
         }
     }
 </script>
+
+
+
+
+<br><br><br><br>
+<p>-------------------------------------------------------------------------------------------</p>
+<br><br><br><br>
 
 
 <script src="app.js"></script>
