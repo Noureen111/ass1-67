@@ -876,204 +876,204 @@ else if(t >= 2100 && t < 2359)
  }
  
  //9
-//  var color=["red","blue","green","yellow"]
-//  var x = prompt("Enter a colour in beginning: ")
-//  document.write("Before"+"<br>");
-//  for(var i =0; i<=color.length-1;i++)
-//  {
-//      document.write(color[i]+"<br>");
-//  } 
-//  color.unshift(x);
-//  document.write("after"+"<br>");
-//  for(var i =0; i<=color.length-1;i++)
-//  {
-//      document.write(color[i]+"<br>");
-//  } 
+ var color=["red","blue","green","yellow"]
+ var x = prompt("Enter a colour in beginning: ")
+ document.write("Before"+"<br>");
+ for(var i =0; i<=color.length-1;i++)
+ {
+     document.write(color[i]+"<br>");
+ } 
+ color.unshift(x);
+ document.write("after"+"<br>");
+ for(var i =0; i<=color.length-1;i++)
+ {
+     document.write(color[i]+"<br>");
+ } 
 
 
 
-//10
-// var score2=[230,435,453,234,231];
-// score2.sort();
-// console.log(score2);
+10
+var score2=[230,435,453,234,231];
+score2.sort();
+console.log(score2);
 
-//11
-// var wordList =["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
-// var wordList2=wordList.slice(2,4);
-// console.log(wordList);
-// console.log(wordList2);
+11
+var wordList =["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
+var wordList2=wordList.slice(2,4);
+console.log(wordList);
+console.log(wordList2);
 
-//12
-// var arr12=["This","is","my","cat"];
-// var arr13=arr12.join(" ");
-// console.log(arr13);
+12
+var arr12=["This","is","my","cat"];
+var arr13=arr12.join(" ");
+console.log(arr13);
 
-//13
-// var arr14=[];
-// arr14.push("Keyboard");
-// arr14.push("Mouse");
-// arr14.push("Printer");
-// arr14.push("Monitor");
-// console.log("Out: ")
-// console.log(arr14[0]);
-// console.log(arr14[1]);
-// console.log(arr14[2]);
-// console.log(arr14[3]);
+13
+var arr14=[];
+arr14.push("Keyboard");
+arr14.push("Mouse");
+arr14.push("Printer");
+arr14.push("Monitor");
+console.log("Out: ")
+console.log(arr14[0]);
+console.log(arr14[1]);
+console.log(arr14[2]);
+console.log(arr14[3]);
 
-//14
-// var arr15=[];
-// arr15.push("Keyboard");
-// arr15.push("Mouse");
-// arr15.push("Printer");
-// arr15.push("Monitor");
-// arr15.reverse();
-// console.log("Out: ")
-// console.log(arr15[0]);
-// console.log(arr15[1]);
-// console.log(arr15[2]);
-// console.log(arr15[3]);
+14
+var arr15=[];
+arr15.push("Keyboard");
+arr15.push("Mouse");
+arr15.push("Printer");
+arr15.push("Monitor");
+arr15.reverse();
+console.log("Out: ")
+console.log(arr15[0]);
+console.log(arr15[1]);
+console.log(arr15[2]);
+console.log(arr15[3]);
  
 
 
-// document.write("<br>" + "<br>" + "<br>" + "------------------------------------------------------------------------------------------" + "<br>" + "<br>" + "<br>" + "<br>")
+document.write("<br>" + "<br>" + "<br>" + "------------------------------------------------------------------------------------------" + "<br>" + "<br>" + "<br>" + "<br>")
 
 
 
-//15
-// var arr16=["Apple","Samsung","Motorola","Nokia","Sony","Haier"]
-// document.write(arr16[0]);
-// document.write("<br>");
-// document.write(arr16[1]);
-// document.write("<br>");
-// document.write(arr16[2]);
-// document.write("<br>");
-// document.write(arr16[3]);
-// document.write("<br>");
-// document.write(arr16[4]);
-// document.write("<br>");
-// document.write(arr16[5]);
+15
+var arr16=["Apple","Samsung","Motorola","Nokia","Sony","Haier"]
+document.write(arr16[0]);
+document.write("<br>");
+document.write(arr16[1]);
+document.write("<br>");
+document.write(arr16[2]);
+document.write("<br>");
+document.write(arr16[3]);
+document.write("<br>");
+document.write(arr16[4]);
+document.write("<br>");
+document.write(arr16[5]);
 
 
-// //chapter 17-20
-// //1
-// var Arr17=[[1,2],[3,4],[5,6]];
+//chapter 17-20
+//1
+var Arr17=[[1,2],[3,4],[5,6]];
 
-// //2
-// var Arr18=[[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+//2
+var Arr18=[[0,1,2,3],[1,0,1,2],[2,1,0,1]];
 
-// //3
-// for (let i = 1; i < 11; i++) {
-//     console.log(i);
-//      }
+//3
+for (let i = 1; i < 11; i++) {
+    console.log(i);
+     }
 
-// //4
-// var num5=prompt("Enter Number");
-// var len=prompt("Enter Length");
+//4
+var num5=prompt("Enter Number");
+var len=prompt("Enter Length");
 
-// for (var i = 1; i <= len; i++) {
-//     console.log(num5," * ",i," = ",num5*i);
-// }
+for (var i = 1; i <= len; i++) {
+    console.log(num5," * ",i," = ",num5*i);
+}
 
-// //5
-// var fruits=["apple","banana","mango","orange","strawberry"]
-// for (var i = 0; i < fruits.length; i++) {
-//     console.log("Element at Index ",i," is ",fruits[i]);
+//5
+var fruits=["apple","banana","mango","orange","strawberry"]
+for (var i = 0; i < fruits.length; i++) {
+    console.log("Element at Index ",i," is ",fruits[i]);
     
-// }
+}
 
-// //6
-// console.log("Counting : \n");
-// var R="";
-// for (var i = 1; i < 16; i++) {
-//     R=R+i;   
-//     R = R+", "
-// }
-// console.log(R);
+//6
+console.log("Counting : \n");
+var R="";
+for (var i = 1; i < 16; i++) {
+    R=R+i;   
+    R = R+", "
+}
+console.log(R);
 
-// R="";
-// console.log("Reversed Counting : \n");
-// for (var i = 10; i > 0; i--) {
-//     R = R+i;   
-//     R = R+", "
-// }
-// console.log(R);
+R="";
+console.log("Reversed Counting : \n");
+for (var i = 10; i > 0; i--) {
+    R = R+i;   
+    R = R+", "
+}
+console.log(R);
 
-// R="";
-// console.log("Even Counting : \n");
-// for (var i = 0; i <= 20; i++) {
-//     if (i%2==0) {
-//     R = R+i;   
-//     R = R+", ";   
-//     }
-// }
-// console.log(R);
+R="";
+console.log("Even Counting : \n");
+for (var i = 0; i <= 20; i++) {
+    if (i%2==0) {
+    R = R+i;   
+    R = R+", ";   
+    }
+}
+console.log(R);
 
-// R="";
-// console.log("Odd Counting : \n");
-// for (var i = 0; i <= 20; i++) {
-//     if (i%2!=0) {
-//     R = R+i;   
-//     R = R+", ";   
-//     }
-// }
-// console.log(R);
+R="";
+console.log("Odd Counting : \n");
+for (var i = 0; i <= 20; i++) {
+    if (i%2!=0) {
+    R = R+i;   
+    R = R+", ";   
+    }
+}
+console.log(R);
 
-// R="";
-// console.log("Series : \n");
-// for (var i = 2; i <= 20; i++) {
-//     if (i%2==0) {
-//     R = R+i;   
-//     R = R+"k, ";   
-//     }
-// }
-// console.log(R);
+R="";
+console.log("Series : \n");
+for (var i = 2; i <= 20; i++) {
+    if (i%2==0) {
+    R = R+i;   
+    R = R+"k, ";   
+    }
+}
+console.log(R);
 
-// //7
-// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
-// var B=prompt("What u want in our Bakery"); 
-// var flag=0;
-// for (var i = 0; i < A.length; i++) {
-//     if (A[i]==B) {
-//         console.log(B," is available at index ",i);
-//         flag=1;
-//         break
-//     } 
-// }
-// if (flag==0) {
-//     console.log(B," is not available at out store");
-// }
+//7
+var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+var B=prompt("What u want in our Bakery"); 
+var flag=0;
+for (var i = 0; i < A.length; i++) {
+    if (A[i]==B) {
+        console.log(B," is available at index ",i);
+        flag=1;
+        break
+    } 
+}
+if (flag==0) {
+    console.log(B," is not available at out store");
+}
 
-// //8
-// var A = [24, 53, 78, 91, 12];
-// var alpha=0;
-// for (var i = 0; i < A.length; i++) {
-//     if (A[i]>alpha) {
-//         alpha=A[i]
-//     }
+//8
+var A = [24, 53, 78, 91, 12];
+var alpha=0;
+for (var i = 0; i < A.length; i++) {
+    if (A[i]>alpha) {
+        alpha=A[i]
+    }
     
-// }
-// console.log("The Largest Number is ",alpha);
+}
+console.log("The Largest Number is ",alpha);
 
-// //9
-// var A = [24, 53, 78, 91, 12];
-// var alpha=1000;
-// for (var i = 0; i < A.length; i++) {
-//     if (A[i]<alpha) {
-//         alpha=A[i]
-//     }
+//9
+var A = [24, 53, 78, 91, 12];
+var alpha=1000;
+for (var i = 0; i < A.length; i++) {
+    if (A[i]<alpha) {
+        alpha=A[i]
+    }
     
-// }
-// console.log("The Smallest Number is ",alpha);
+}
+console.log("The Smallest Number is ",alpha);
 
-// //10
-// var R2="";
-// for (var i = 1; i <= 100; i++) {
-//     if (i%5==0) {
-//         R2=R2+i;   
-//         R2=R2+", "   
-//     }
-// }
-// console.log(R2);
+//10
+var R2="";
+for (var i = 1; i <= 100; i++) {
+    if (i%5==0) {
+        R2=R2+i;   
+        R2=R2+", "   
+    }
+}
+console.log(R2);
 
 // //chapter 21 - 25
 // //1
@@ -2011,147 +2011,147 @@ document.write("<br>" + "<br>" + "<br>" + "-------------------------------------
 
 //chapter 39-42
 //1
-// function power(a,b) {
+function power(a,b) {
 
-//     if (b==0) {
-//         a=1;
-//     } else {
-//         var tem=a;
-//         b--;
-//         while (b>=1) {
-//             a*=tem;
-//             b--;
-//         }
-//     }
-//     alert(a);
-// }
+    if (b==0) {
+        a=1;
+    } else {
+        var tem=a;
+        b--;
+        while (b>=1) {
+            a*=tem;
+            b--;
+        }
+    }
+    alert(a);
+}
 
-// //2
-// function LeapYear(year) {
-//     alert((year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0));    
-// } 
+//2
+function LeapYear(year) {
+    alert((year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0));    
+} 
 
-// //3
-// function calcarea(s,a,b,c) {
-//     var Area=s*(s-a)*(s-b)*(s-c);
-//     alert("Area: "+Area)
-// }
-// function calcS(a,b,c) {
-//     var S=(a+b+c)/2;
-//     calcarea(S,a,b,c);
-// }
+//3
+function calcarea(s,a,b,c) {
+    var Area=s*(s-a)*(s-b)*(s-c);
+    alert("Area: "+Area)
+}
+function calcS(a,b,c) {
+    var S=(a+b+c)/2;
+    calcarea(S,a,b,c);
+}
 
-// //4
-// function mainFunction(a,b,c) {
-//     alert("Average: "+average(a,b,c));
-//     alert("Percentage: "+percentage(a,b,c)+"% out of 300");
-// }
-// function percentage(a,b,c) {
-//     return (a+b+c)/300*100;
-// }
-// function average(a,b,c) {
-//     return (a+b+c)/3;
-// }
+//4
+function mainFunction(a,b,c) {
+    alert("Average: "+average(a,b,c));
+    alert("Percentage: "+percentage(a,b,c)+"% out of 300");
+}
+function percentage(a,b,c) {
+    return (a+b+c)/300*100;
+}
+function average(a,b,c) {
+    return (a+b+c)/3;
+}
 
-// //5
-// function indexOf(str3,_char) {
-//     var q=0;
-//     var flag=false;
-//     while (q<=str3.length) {
-//         if (_char==str3[q]) {
-//             alert("Found at "+q)
-//             flag=true;
-//             break;
-//         }
-//         q++;
-//     }
-//     if (flag!=true) {
-//         alert("character not found")
-//     }
-// }
+//5
+function indexOf(str3,_char) {
+    var q=0;
+    var flag=false;
+    while (q<=str3.length) {
+        if (_char==str3[q]) {
+            alert("Found at "+q)
+            flag=true;
+            break;
+        }
+        q++;
+    }
+    if (flag!=true) {
+        alert("character not found")
+    }
+}
 
-// //6
-// function vowel(strings) {
+//6
+function vowel(strings) {
 
-//     var str4=strings.replace(/[aeiou]/g,'')
-//     alert("String without vowel : "+str4);
-//  }
-
-
-// //7
-// function find(str2) {
-//     var find = 0, count = 0;
-//     str2 = str2.toLowerCase();
-//     console.log("Vowels in successions are: \n",)
-//     for (var i = 0; i<str2.length; i++) {
-//         if (isvowel(str2[i])) {
-//             find++;
-//         } else {
-//             find = 0;
-//         }
-//         if (find == 2) {
-//             console.log(str2[i - 1], str2[i], '\n');
-//             find = 1;
-//         }
-
-//     }
-// }
-// function isvowel(char) {
-//     switch (char) {
-//         case 'a':
-//         case 'e':
-//         case 'i':
-//         case 'o':
-//         case 'u':
-//             return 1;
-
-//         default:
-//             return 0;
-//     }
-// }
+    var str4=strings.replace(/[aeiou]/g,'')
+    alert("String without vowel : "+str4);
+ }
 
 
-// //8
-// function conversion(dis) {
-//     console.log("Distance in meter : "+toMeter(dis));
-//     console.log("Distance in feet : "+toFeet(dis));
-//     console.log("Distance in inch : "+toInch(dis));
-//     console.log("Distance in centimeter : "+toCentimeter(dis));    
-// }
-// function toMeter(dis) {
-//     return dis/1000;
-// }
-// function toInch(dis) {
-//     return dis/39370.0787;
-// }
-// function toFeet(dis) {
-//     return dis/3280.8399;
-// }
-// function toCentimeter(dis) {
-//     return dis/100000;
-// }
+//7
+function find(str2) {
+    var find = 0, count = 0;
+    str2 = str2.toLowerCase();
+    console.log("Vowels in successions are: \n",)
+    for (var i = 0; i<str2.length; i++) {
+        if (isvowel(str2[i])) {
+            find++;
+        } else {
+            find = 0;
+        }
+        if (find == 2) {
+            console.log(str2[i - 1], str2[i], '\n');
+            find = 1;
+        }
 
-// //9
-// function overtime() {
-//     var hour = +prompt("Enter Hours Worked");
-//     hour -= 40;
-//     if (hour < 0) {
-//         alert("You didnt worked for overtime");
-//     } else {
-//         var payment = hour * 12;
-//         alert("The overtime pay will be " + payment);
-//     }
-// }
+    }
+}
+function isvowel(char) {
+    switch (char) {
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+            return 1;
 
-// //10
-// function withdraw() {
-//     var am=+prompt("Enter the amount to withdraw: ");
-//     var hundreds=0,fifty=0,tens=0;
-//     hundreds=Math.floor(am/100);
-//     fifty=Math.floor((am%100)/50)
-//     tens=Math.floor(((am%100)-fifty*50)/10)
-//     alert(`you will have ${hundreds} hundred notes ${fifty} fifty notes ${tens} ten notes`)
-// }
+        default:
+            return 0;
+    }
+}
+
+
+//8
+function conversion(dis) {
+    console.log("Distance in meter : "+toMeter(dis));
+    console.log("Distance in feet : "+toFeet(dis));
+    console.log("Distance in inch : "+toInch(dis));
+    console.log("Distance in centimeter : "+toCentimeter(dis));    
+}
+function toMeter(dis) {
+    return dis/1000;
+}
+function toInch(dis) {
+    return dis/39370.0787;
+}
+function toFeet(dis) {
+    return dis/3280.8399;
+}
+function toCentimeter(dis) {
+    return dis/100000;
+}
+
+//9
+function overtime() {
+    var hour = +prompt("Enter Hours Worked");
+    hour -= 40;
+    if (hour < 0) {
+        alert("You didnt worked for overtime");
+    } else {
+        var payment = hour * 12;
+        alert("The overtime pay will be " + payment);
+    }
+}
+
+//10
+function withdraw() {
+    var am=+prompt("Enter the amount to withdraw: ");
+    var hundreds=0,fifty=0,tens=0;
+    hundreds=Math.floor(am/100);
+    fifty=Math.floor((am%100)/50)
+    tens=Math.floor(((am%100)-fifty*50)/10)
+    alert(`you will have ${hundreds} hundred notes ${fifty} fifty notes ${tens} ten notes`)
+}
 
 // //chapters 43-48
 // //1
